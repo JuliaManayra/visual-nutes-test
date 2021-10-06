@@ -1,12 +1,13 @@
 package com.visual.nutes.julia.main;
 import com.visual.nutes.julia.util.NumberVisualNutesUtil;
 
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
-        NumberVisualNutesUtil nutesUtil = new NumberVisualNutesUtil();
-        for(int i=1;i<=100;i++){
-            System.out.println(" "+nutesUtil.getValueDivisibleByTwoNumber(i,3,5,"Visual","Nutes"));
-        }
+        var nutesUtil = new NumberVisualNutesUtil();
+        List<String> list = nutesUtil.getListNumberReplaceToVisualNutesDivisibleByTwoNumberOrIndividualNumber(100,3,5);
+        list.stream().forEach(System.out::println);
     }
 }
