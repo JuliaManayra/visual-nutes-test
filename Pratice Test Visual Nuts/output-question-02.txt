@@ -1,0 +1,18 @@
+returns the number of countries in the world:
+number of coutries: 5
+
+finds the country with the most official languages, where they officially speak German (de):
+Country: DE - Number of Languages: 1
+
+Country: BE - Number of Languages: 3
+
+
+
+that counts all the official languages spoken in the listed countries
+number: 6
+
+ to find the country with the highest number of official languages
+country: BE
+
+ - to find the most common official language(s), of all countries
+Language: nl
