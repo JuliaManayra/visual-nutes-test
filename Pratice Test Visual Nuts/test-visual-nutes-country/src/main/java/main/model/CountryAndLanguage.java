@@ -1,4 +1,4 @@
-package model;
+package main.model;
 
 import java.util.List;
 
@@ -27,6 +27,6 @@ public class CountryAndLanguage {
     }
 
     public Long getSizeLanguage(){
-        return languages.stream().count();
+        return languages.stream().distinct().count();
     }
 }
